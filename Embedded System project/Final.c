@@ -221,7 +221,7 @@ ADCON0.ADON = 1;
 {
     TXSTA=0x20; //BRGH=0, TXEN = 1, Asynchronous Mode, 8-bit mode
     RCSTA=0b10000000; //Serial Port enabled,8-bit reception
-    SPBRG=5;           //9600 baudrate for 4Mhz =n
+    SPBRG=5;           //10417 baudrate for 4Mhz =n
     PIR1.TXIF=0;
     PIR1.RCIF=0;
 }
