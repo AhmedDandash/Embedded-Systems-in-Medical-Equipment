@@ -276,9 +276,7 @@ cnt++;                      //increment the counter by one
 void HeartPulse()
 {
 
-  //hr=pul*6;
-bpm=60000/pul;
- hr=bpm/100;
+  hr=pul*6;
   FloatToStr(hr, txt);
   HeartBeat[6]=txt[0];
   HeartBeat[7]=txt[1];
